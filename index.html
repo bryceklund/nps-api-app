@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>National Park Finder</title>
+</head>
+<body>
+    <h1>National Park Finder</h1>
+    <form action="submit">
+        <label for="states-input">Enter the states (abbreviated, e.g. 'NY') you'd like to find parks in, separated by commas: </label>
+        <input type="text"><br>
+        <label for="resultsMax-input">Enter the maximum number of results you'd like (leave blank for 10): </label>
+        <input type="text">
+        <button>Go!</button>
+    </form>
+    <section class="results"></section>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
